@@ -560,6 +560,6 @@ async def upload_single_file(
                     time.sleep(gf.x)
                 except Exception as rr:
                     LOGGER.warning(str(rr))
-                    await asyncio.sleep(5)
+                    await asyncio.sleep(2)
         os.remove(local_file_name)
     return sent_message
