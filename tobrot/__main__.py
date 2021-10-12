@@ -73,27 +73,27 @@ from tobrot.plugins.status_message_fn import (
 )
 
 botcmds = [
-        (f'{BotCommands.ExtractCommand}', 'Unarchive items and upload to telegram'),
-        (f'{BotCommands.gExtractCommand}','This will unarchive file and upload to cloud.'),
-        (f'{BotCommands.ArchiveCommand}','Archive as .tar.gz acrhive and upload to Telegram'),
-        (f'{BotCommands.gArchiveCommand}','rchive as .tar.gz acrhive and upload to Cloud'),
-        (f'{BotCommands.telegramfleechCommand}','This will mirror the telegram files to ur respective cloud .'),
-        (f'{BotCommands.telegramexleechCommand}','This will unarchive telegram file and upload to cloud.'),
-        (f'{BotCommands.gcloneCommand}','This command is used to clone gdrive files or folder using gclone'),
-        (f'{BotCommands.YtdlCommand}','upload yt-dlp supported video links to Telegram'),
-        (f'{BotCommands.gYtdlCommand}','upload yt-dlp supported video links to Cloud'),
-        (f'{BotCommands.PytdlCommand}','upload yt-dlp supported playlist links to Telegram'),
-        (f'{BotCommands.gPytdlCommand}','upload yt-dlp supported playlist links to Cloud'),
-        (f'{BotCommands.ToggleDocCommand}','choose whether the file shall be uploaded as doc or not'),
-        (f'{BotCommands.ToggleVidCommand}','choose whether the file shall be uploaded as streamable or not'),
-        (f'{BotCommands.SaveCommand}','Save Thumbnail For Telegram Uploads'),
-        (f'{BotCommands.ClearCommand}','Clear Thumbnail to default For Telegram Uploads'),
-        (f'{BotCommands.RenameCommand}','Rename Telegram File and reupload it telegram'),
-        (f'{BotCommands.StatusCommand}','Show Bot stats and concurrent Downloads'),
-        (f'{BotCommands.SpeedCommand}','Get Speedtest of the Host'),
+        (f'{BotCommands.ExtractCommand}', 'Unarchive upload to telegram'),
+        (f'{BotCommands.gExtractCommand}','Unarchive upload to cloud.'),
+        (f'{BotCommands.ArchiveCommand}','Archive as upload to Telegram'),
+        (f'{BotCommands.gArchiveCommand}','Archive as upload to Cloud'),
+        (f'{BotCommands.telegramfleechCommand}','Mirror telegram files to cloud .'),
+        (f'{BotCommands.telegramexleechCommand}','Unarchive telegram upload to cloud.'),
+        (f'{BotCommands.gcloneCommand}','Clone gdrive file-folder gclone'),
+        (f'{BotCommands.YtdlCommand}','yt-dlp video links to Telegram'),
+        (f'{BotCommands.gYtdlCommand}','yt-dlp video links to Cloud'),
+        (f'{BotCommands.PytdlCommand}','upload yt-dlp playlist links Telegram'),
+        (f'{BotCommands.gPytdlCommand}','upload yt-dlp playlist links Cloud'),
+        (f'{BotCommands.ToggleDocCommand}','uploaded as doc or not'),
+        (f'{BotCommands.ToggleVidCommand}','uploaded as streamable or not'),
+        (f'{BotCommands.SaveCommand}','Thumbnail For Telegram Uploads'),
+        (f'{BotCommands.ClearCommand}','Clear Thumbnail Telegram Uploads'),
+        (f'{BotCommands.RenameCommand}','Rename Telegram File up telegram'),
+        (f'{BotCommands.StatusCommand}','Show Bot stats Downloads'),
+        (f'{BotCommands.SpeedCommand}','Speedtest'),
         (f'{BotCommands.HelpCommand}','Get Help'),
         (f'{BotCommands.LogCommand}','Get the Bot Log [Owner Only]'),
-        (f'{BotCommands.TsHelpCommand}','Get help for Torrent Search Module')
+        (f'{BotCommands.TsHelpCommand}','Torrent Search')
 
     ]
 
